@@ -1,0 +1,400 @@
+[
+  {
+    "items": [
+      {
+        "title": "dashboard",
+        "path": "/admin/dashboard",
+        "icon": "/icons/ic_dashboard.svg",
+        "placement": 1,
+        "children": [
+          {
+            "title": "business",
+            "parent": "dashboard",
+            "path": "/admin/dashboard/business",
+            "placement": 0
+          },
+          {
+            "title": "network",
+            "parent": "dashboard",
+            "path": "/admin/dashboard/network",
+            "placement": 1
+          }
+        ]
+      },
+      {
+        "title": "genealogy",
+        "parent": "genealogy",
+        "path": "/admin/genealogy",
+        "icon": "/icons/ic_kanban.svg",
+        "placement": 2,
+        "children": [
+          {
+            "title": "binary",
+            "parent": "genealogy",
+            "path": "/admin/genealogy/binary",
+            "placement": 0
+          },
+          {
+            "title": "sponsor",
+            "parent": "genealogy",
+            "path": "/admin/genealogy/sponsor",
+            "placement": 1
+          },
+          {
+            "title": "tree",
+            "parent": "genealogy",
+            "path": "/admin/genealogy/tree",
+            "placement": 2
+          }
+        ]
+      },
+      {
+        "title": "financial",
+        "path": "/admin/financial",
+        "icon": "/icons/ic_ecommerce.svg",
+        "placement": 3,
+        "children": [
+          {
+            "title": "ewallet",
+            "parent": "financial",
+            "path": "/admin/financial/e-wallet",
+            "placement": 0
+          },
+          {
+            "title": "depositWallet",
+            "parent": "financial",
+            "path": "/admin/financial/deposit-wallet",
+            "placement": 1
+          },
+          {
+            "title": "fundCredits",
+            "parent": "financial",
+            "path": "/admin/financial/fund-credits",
+            "placement": 2
+          },
+          {
+            "title": "payout",
+            "parent": "financial",
+            "path": "/admin/financial/payout",
+            "placement": 3,
+            "actions": ["reject", "approve"]
+          }
+        ]
+      },
+      {
+        "title": "communication",
+        "path": "/admin/communication",
+        "icon": "/icons/ic_chat.svg",
+        "placement": 4,
+        "children": [
+          {
+            "title": "blog",
+            "parent": "communication",
+            "path": "/admin/communication/blog",
+            "placement": 0,
+            "actions": [
+              "create-post",
+              "add-category",
+              "edit",
+              "delete",
+              "publish"
+            ]
+          },
+          {
+            "title": "faqs",
+            "parent": "communication",
+            "path": "/admin/communication/faqs",
+            "placement": 1,
+            "actions": [
+              "add-faq",
+              "add-category",
+              "edit-faq",
+              "delete-faq",
+              "edit-category",
+              "delete-category"
+            ]
+          },
+          {
+            "title": "emails",
+            "parent": "communication",
+            "path": "/admin/communication/mails",
+            "placement": 2,
+            "actions": ["add"]
+          },
+          {
+            "title": "helpCenter",
+            "parent": "communication",
+            "path": "/admin/communication/help-center",
+            "placement": 3,
+            "action": [
+              "create-ticket",
+              "view-ticket",
+              "impersonate-ticket",
+              "edit-ticket",
+              "delete-ticket",
+              "add-department",
+              "edit-department",
+              "delete-department",
+              "add-categories",
+              "edit-categories",
+              "delete-categories",
+              "add-canned",
+              "edit-canned",
+              "delete-canned",
+              "add-priorities",
+              "edit-priorities",
+              "delete-priorities"
+            ]
+          },
+          {
+            "title": "article",
+            "parent": "communication",
+            "path": "/admin/communication/articles",
+            "placement": 4,
+            "action": [
+              "add-article",
+              "edit-article",
+              "delete-article",
+              "add-category",
+              "edit-category",
+              "delete-category"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "tools",
+        "path": "/admin/tools",
+        "icon": "/icons/ic_tools.svg",
+        "placement": 5,
+        "children": [
+          {
+            "title": "documents",
+            "parent": "tools",
+            "path": "/admin/tools/documents",
+            "placement": 0,
+            "actions": ["add", "edit", "delete"]
+          },
+          {
+            "title": "videos",
+            "parent": "tools",
+            "path": "/admin/tools/videos",
+            "placement": 1,
+            "actions": ["add", "edit", "delete"]
+          }
+        ]
+      },
+      {
+        "title": "membersManagement",
+        "path": "/admin/members",
+        "icon": "/icons/ic_member_management.svg",
+        "placement": 6,
+        "children": [
+          {
+            "title": "networkMembers",
+            "parent": "membersManagement",
+            "path": "/admin/members/network",
+            "placement": 0
+          },
+          {
+            "title": "holdingTank",
+            "parent": "membersManagement",
+            "path": "/admin/members/holding-tank",
+            "placement": 1,
+            "actions": ["add", "approve"]
+          }
+        ]
+      },
+      {
+        "disabled": true,
+        "title": "subAdmin",
+        "path": "/admin/sub-admin",
+        "icon": "/icons/ic_subadmin.svg",
+        "children": [{ "title": "subAdmins", "path": "/admin/sub-admin" }]
+      },
+      {
+        "title": "store",
+        "path": "/admin/store",
+        "icon": "/icons/ic_store.svg",
+        "placement": 8,
+        "children": [
+          {
+            "title": "products",
+            "parent": "store",
+            "path": "/admin/store/products",
+            "placement": 0,
+            "actions": [
+              "add-package",
+              "add-product",
+              "add-category",
+              "view-edit-video",
+              "view-edit-document",
+              "view-edit-questions",
+              "view-edit-sampledocument",
+              "view-edit-product",
+              "delete"
+            ]
+          },
+          {
+            "title": "materials",
+            "parent": "store",
+            "path": "/admin/store/materials",
+            "placement": 1,
+            "actions": [
+              "add",
+              "view",
+              "add-material",
+              "edit-material",
+              "delete-material"
+            ]
+          },
+          {
+            "title": "events",
+            "parent": "store",
+            "path": "/admin/store/events",
+            "placement": 2,
+            "actions": ["add", "edit", "delete"]
+          },
+          {
+            "title": "Coupons",
+            "parent": "store",
+            "path": "/admin/store/coupons",
+            "placement": 3,
+            "actions": ["add", "edit", "delete"]
+          },
+          {
+            "title": "userReviews",
+            "parent": "store",
+            "path": "/admin/store/reviews",
+            "placement": 4,
+            "actions": ["add", "edit"]
+          },
+          {
+            "title": "assignSubscriptions",
+            "parent": "store",
+            "path": "/admin/store/assign-subscriptions",
+            "placement": 5,
+            "actions": ["add-product", "edit", "delete"]
+          },
+          {
+            "title": "businessBuilderSubscriptionssales",
+            "parent": "store",
+            "path": "/admin/store/business_builder_subscriptions",
+            "placement": 6
+          },
+          {
+            "title": "paymentMethods",
+            "path": "/admin/store/payment-methods",
+            "parent": "store"
+          }
+        ]
+      },
+      {
+        "title": "settings",
+        "path": "/admin/settings",
+        "icon": "/icons/ic_settings.svg",
+        "placement": 9,
+        "children": [
+          {
+            "title": "brand",
+            "parent": "settings",
+            "path": "/admin/settings/brand",
+            "placement": 0,
+            "actions": [
+              "add-sections",
+              "edit-sections",
+              "delete-sections",
+              "add-articles",
+              "edit-articles",
+              "delete-articles"
+            ]
+          },
+          {
+            "title": "businessBuilder",
+            "parent": "settings",
+            "path": "/admin/settings/business",
+            "placement": 1,
+            "action": ["add"]
+          },
+          {
+            "title": "network",
+            "parent": "settings",
+            "path": "/admin/settings/network",
+            "placement": 2,
+            "action": [
+              "binary",
+              "rank",
+              "referral",
+              "first-order",
+              "level-bonus",
+              "stair-step"
+            ]
+          },
+          {
+            "title": "Withdrawal",
+            "parent": "settings",
+            "path": "/admin/settings/withdrawal",
+            "placement": 3,
+            "actions": ["update"]
+          }
+        ]
+      },
+      {
+        "title": "reports",
+        "path": "/admin/report",
+        "icon": "/icons/ic_report.svg",
+        "placement": 10,
+        "children": [
+          {
+            "title": "builderSubscription",
+            "parent": "reports",
+            "path": "/admin/report/builder",
+            "placement": 0
+          },
+          {
+            "title": "fundCredit",
+            "parent": "reports",
+            "path": "/admin/report/fund/credit",
+            "placement": 1
+          },
+          {
+            "title": "joiningReport",
+            "parent": "reports",
+            "path": "/admin/report/joining",
+            "placement": 2
+          },
+          {
+            "title": "memberIncome",
+            "parent": "reports",
+            "path": "/admin/report/income",
+            "placement": 3
+          },
+          {
+            "title": "payout",
+            "parent": "reports",
+            "path": "/admin/report/payout",
+            "placement": 4
+          },
+          {
+            "title": "pointHistory",
+            "parent": "reports",
+            "path": "/admin/report/point/history",
+            "placement": 5
+          },
+          {
+            "title": "sales",
+            "parent": "reports",
+            "path": "/admin/report/sales",
+            "placement": 6
+          },
+          {
+            "title": "topEarners",
+            "parent": "reports",
+            "path": "/admin/report/earners",
+            "placement": 7
+          }
+        ]
+      }
+    ]
+  }
+]

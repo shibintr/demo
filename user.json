@@ -1,0 +1,162 @@
+[
+  {
+    "items": [
+      {
+        "title": "dashboard",
+        "path": "/user/dashboard",
+        "icon": "/icons/ic_dashboard.svg",
+        "placement": 0
+      },
+      {
+        "title": "joinTelegram",
+        "path": "https://web.telegram.org/",
+        "icon": "/icons/ic_chat.svg"
+      },
+      {
+        "title": "onlineStore",
+        "path": "/user/online-store",
+        "icon": "/icons/ic_store.svg",
+        "placement": 1,
+        "children": [
+          {
+            "title": "product",
+            "path": "/user/online-store/product-subscription",
+            "placement": 0
+          },
+          {
+            "title": "myOrders",
+            "path": "/user/online-store/my-orders",
+            "placement": 1
+          }
+        ]
+      },
+      {
+        "title": "mySubscriptions",
+        "icon": "/icons/ic_user_subscription.svg",
+        "path": "/user/subscriptions",
+        "placement": 2
+      },
+      {
+        "title": "genealogy",
+        "icon": "/icons/ic_kanban.svg",
+        "path": "/user/genealogy",
+        "placement": 3,
+        "children": [
+          {
+            "title": "binary",
+            "path": "/user/genealogy/binary",
+            "placement": 0
+          },
+          {
+            "title": "Sponsor",
+            "path": "/user/genealogy/sponsor",
+            "placement": 1
+          },
+          {
+            "title": "affiliateDashboard",
+            "path": "/user/genealogy/affiliate",
+            "placement": 2
+          }
+        ]
+      },
+      {
+        "title": "financial",
+        "path": "/user/financial",
+        "icon": "/icons/ic_ecommerce.svg",
+        "placement": 4,
+        "children": [
+          {
+            "title": "myEWallet",
+            "path": "/user/financial/e-wallet",
+            "placement": 0
+          },
+          {
+            "title": "depositWallet",
+            "path": "/user/financial/deposit-wallet",
+            "placement": 1
+          },
+          {
+            "title": "fundTransfer",
+            "path": "/user/financial/funds-transfer",
+            "placement": 2
+          },
+          {
+            "title": "requestPayout",
+            "path": "/user/financial/payout",
+            "placement": 3
+          }
+        ]
+      },
+      {
+        "title": "businessBuilder",
+        "icon": "/icons/ic_bb.svg",
+        "path": "/user/business-builder",
+        "placement": 5,
+        "children": [
+          {
+            "title": "subscriptions",
+            "path": "/user/business-builder/subscriptions",
+            "placement": 0
+          },
+          {
+            "title": "materials",
+            "path": "/user/business-builder/materials",
+            "placement": 1
+          }
+        ]
+      },
+      {
+        "title": "myProfile",
+        "icon": "/icons/ic_profile.svg",
+        "path": "/user/profile",
+        "placement": 6
+      },
+      {
+        "title": "blogs",
+        "icon": "/icons/ic_blog.svg",
+        "path": "/user/blogs",
+        "placement": 7
+      },
+      {
+        "title": "helpCenter",
+        "path": "/user/help-center",
+        "icon": "/icons/ic_helpcenter.svg",
+        "placement": 8,
+        "children": [
+          { "title": "faqs", "path": "/user/help-center/faqs", "placement": 0 },
+          {
+            "title": "knowledgeBase",
+            "path": "/user/help-center/knowledge-base",
+            "placement": 1
+          },
+          {
+            "title": "emails",
+            "path": "/user/help-center/mails/inbox",
+            "placement": 2
+          },
+          {
+            "title": "supportTickets",
+            "path": "/user/help-center/create-ticket",
+            "placement": 3
+          },
+          {
+            "title": "documents",
+            "path": "/user/help-center/documents",
+            "placement": 4
+          },
+          {
+            "title": "videos",
+            "path": "/user/help-center/videos",
+            "placement": 5
+          }
+        ]
+      },
+      {
+        "title": "incomeReport",
+        "path": "/user/income-report",
+        "icon": "/icons/ic_report.svg",
+        "placement": 9
+      }
+    ]
+  }
+]
